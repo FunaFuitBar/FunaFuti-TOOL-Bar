@@ -19,10 +19,10 @@ var mp_modules = [
   // Neue Module immer UNTEN hinzufügen
   {
     id: 2,
-    name: "Bereitstellungsraum selector",
-    script: "mp_leitstellenspiel.bereitstellung.js",
+    name: "Einsatz & GSL Übersicht",
+    script: "Einsatz_GSL_Overview.js",
     description:
-      "Im Bereitstellungsraum wird oben eine Liste an beteiligten Wachen angezeigt, um alle Fahrzeuge von dieser Wache auszuwählen. Danach kann man alle diese Fahrzeuge nach Hause schicken.",
+      "Zeigt alle VGSL & PGSL an, und alle Einsätze ab 7000 Cr.",
   },
   {
     id: 4,
