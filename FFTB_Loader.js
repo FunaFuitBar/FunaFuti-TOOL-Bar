@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Monstalein Leitstellenspiel Extras
+// @name         FunaFuti(TOOL)-Bar
 // @version      0.2
 // @description  Erweiterung für LSS
-// @author       monstalein
+// @author       TheWatcher - Watch at me!
 // @homepage     n/a
 // @include      *://leitstellenspiel.de/*
 // @include      *://www.leitstellenspiel.de/*
@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 if ("undefined" == typeof jQuery) {
-    throw new Error("mp_leitstellenspiel_extras: No jQuery! Aborting!");
+    throw new Error("FunaFuti(TOOL)-Bar: No jQuery! Aborting!");
 }
 
 var uid = "";
