@@ -83,7 +83,7 @@ var fftb_latest_changes_msg = "<b>Neues Modul:</b> Mögliche Einsätze: DGL ausb
 function fftb_setup_info_dialog() {
   $("#fftb_version").text(fftb_version);
 
-  var mods_act = JSON.parse(localStorage.getItem("fftb_modules_active") || "[]");
+  var mods_act = JSON.parse(localStorage.getItem("fftb_modules_active ") || "[]");
 
   var changed = false;
 
