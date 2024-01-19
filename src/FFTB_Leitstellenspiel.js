@@ -174,7 +174,7 @@ $(function () {
 
   window.setTimeout(() => {
     $.ajax({
-      url: "https://raw.githubusercontent.com/FunaFuitBar/FunaFuti-TOOL-Bar/main/src/FFTB_Snippet_dialog.php",
+      url: "https://cdn.jsdelivr.net/gh/FunaFuitBar/FunaFuti-TOOL-Bar/src/FFTB_Snippet_dialog.php",
       async: true,
     })
       .done((d) => {
