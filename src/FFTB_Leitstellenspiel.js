@@ -156,7 +156,7 @@ function fftb_setup_info_dialog() {
 
 function fftb_load_module(src) {
   $.ajax({
-    url: "https://raw.githubusercontent.com/FunaFuitBar/FunaFuti-TOOL-Bar/main/src/" + src,
+    url: "https://cdn.jsdelivr.net/gh/FunaFuitBar/FunaFuti-TOOL-Bar/src/" + src,
     async: true,
   })
     .done(() => {
