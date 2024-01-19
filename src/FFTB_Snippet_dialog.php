@@ -1,7 +1,4 @@
 <style>
-    #mp_employee_list {
-        position: relative;
-    }
     .mp_header {
         position: fixed;
         top: 55px;
@@ -12,23 +9,8 @@
     .mp_header th {
         text-align: left;
     }
-    #mp_employee_list table{
-        width: 100%;
-    }
-    #mp_employee_list td, #mp_employee_list th {
-        width: 30%;
-    }   
-    #mp_employee_list td:nth-child(2), #mp_employee_list th:nth-child(2) {
-        width: 15%;
-    }
-    #mp_employee_list td:nth-child(3), #mp_employee_list th:nth-child(3) {
-        width: 25%;
-    }
-    #mp_employee_list td:nth-child(4), #mp_employee_list th:nth-child(4) {
-        width: 30%;
-    }
-    
-    #mp_info_dlg .mp_module {
+
+    #fftb_info_dlg .mp_module {
         
         min-height: 110px;
         width: 80%;
@@ -38,11 +20,11 @@
         margin: 10px auto;
     }
     
-    #mp_info_dlg .mp_module.active {
+    #fftb_info_dlg .mp_module.active {
         border-color: #0e0;
     }
         
-</style><div id="mp_peronal_dlg" class="modal modal-xl fade" tabindex="-1" role="dialog">
+</style><div id="fftb_info_dlg" class="modal modal-xl fade" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document" style="width: 80%;">
     <div class="modal-content">
       <div class="modal-header">
