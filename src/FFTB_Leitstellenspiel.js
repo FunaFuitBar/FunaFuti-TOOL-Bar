@@ -9,7 +9,7 @@ var fftb_modules = [
   {
     id: 1,
     name: "Einsatz & GSL Übersicht",
-    script: "Einsatz_GSL_Overview.js",
+    script: "FFTB_Einsatz_GSL_Overview.js",
     description:
       "Zeigt alle VGSL & PGSL an, und alle Einsätze ab 7000 Cr.",
   },
