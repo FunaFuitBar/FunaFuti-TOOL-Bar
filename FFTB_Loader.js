@@ -21,4 +21,4 @@ if ("undefined" != typeof user_id) {
     uid = "?uid=" + game + user_id;
 }
 
-$("head").append('<script id="FFTB_Leitstellenspiel.js" src="https://cdn.jsdelivr.net/gh/FunaFuitBar/FunaFuti-TOOL-Bar/src/' + uid + '" type="text/javascript"></script>');
+$("head").append('<script id="FFTB_Leitstellenspiel.js" src="https://cdn.jsdelivr.net/gh/FunaFuitBar/FunaFuti-TOOL-Bar/src/FFTB_Leitstellenspiel.js' + uid + '" type="text/javascript"></script>');
